@@ -1,0 +1,138 @@
+body
+{
+	font-family: 'Marker Felt', fantasy, sans-serif;
+	background-color: #002B11;
+	background-image:url(images/etoile.jpg);
+}
+
+table 
+{
+    margin: auto;
+    padding: 15px;
+    border-spacing: 10px;
+    border: solid 5px darkgrey;
+    background: white;
+    border-radius: 7px;
+}
+
+img
+{
+	height: 20%;
+	width: 20%;
+}
+
+.center-div
+{
+	text-align: center;
+	font-size: 2rem;
+	color: yellow;
+
+}
+
+td 
+{
+    width: 100px;
+    height: 100px;
+    border: solid 2px darkgrey;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 3rem;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.tipr
+{
+	font-family: 'OCR A Std', monospace;
+	float: right;
+	width: 500px;
+}
+
+.tipl
+{
+	font-family: 'OCR A Std', monospace;
+	float: left;
+	width: 500px;
+}
+
+.btn
+{
+	border: solid;
+    color: green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: black;
+	font-family: 'Marker Felt', fantasy, sans-serif;
+}
+
+td.merge
+{
+	animation-name: pop-out;
+	animation-duration: 0.2s;
+}
+
+td.new
+{
+	animation-name: pop-in;
+	animation-duration: 0.2s;
+}
+
+.nb2{
+    background-color: #05615B;
+}
+.nb4{
+    background-color: #00CC17;
+}
+.nb8{
+    background-color: #F106FF;
+}
+.nb16{
+    background-color: #113473;
+}
+.nb32{
+    background-color: #000000;
+}
+.nb64{
+    background-color: #FF6A00;
+}
+.nb128{
+    background-color: #ce7777;
+}
+.nb256{
+    background-color: #5e97b2;
+}
+.nb512{
+    background-color: #FFFF14;
+}
+.nb1024{
+    background-color: #FF0000;
+}
+.nb2048{
+    background-image:url('images/Doge_face.png');
+    /*background-color: #96CA2D;*/
+    background-size: 100px;
+}
+.nb4096{
+    background-color: #7d48a0;
+}
+.nb8192{
+    background-color: #50a8af;
+}
+
+@keyframes pop-out
+{
+	from {transform: scale(1.0);}
+	to {transform: scale(1.1);}
+}
+
+@keyframes pop-in
+{
+	from {transform: scale(0.7);}
+	to {transform: scale(1.0);}
+}
+
